@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #012330;
+    padding: 10vh;
+}
+.heading{
+    font-size: 3vw;
+    color: white;
+    font-weight: 500;
+}
+.random{
+    color:rgb(38, 167, 38);
+    position: relative;
+    top: 3vh;
+    text-decoration: underline;
+}
+.inputBox{
+    width: 30vw;
+    height: 7vh;
+    background-color: white;
+    position: relative;
+    top: 8vh;
+    border-radius:2vh;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+#password{
+    font-size: 2.5vh;
+    height: 5vh;
+    border: none;
+    margin-left: 2vh;
+}
+.copy{
+    width: 4vh;
+    height: 5vh;
+    position: relative;
+    left: 22vh;
+}
+.copy:hover{
+    cursor: pointer;
+}
+.generate{
+    width: 20vw;
+    height: 7vh;
+    background-color: rgb(38, 167, 38);
+    color: white;
+    font-size: 3vh;
+    position: relative;
+    top: 12vh;
+    border: none;
+    border-radius: 1vh;
+}
+.generate:hover{
+    cursor: pointer;
+}
